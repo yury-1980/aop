@@ -15,5 +15,5 @@ spring:
     enabled: true
 Cache:
   capacity: 5
-exeption:
-  enabled: false
+exception:
+  enabled: true

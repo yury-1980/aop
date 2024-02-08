@@ -9,7 +9,7 @@ import ru.clevertec.exeption.ExeptionHandler;
 
 @Slf4j
 @Configuration
-@ConditionalOnProperty(prefix = "exeption", name = "enabled", havingValue = "true")
+@ConditionalOnProperty(prefix = "exception", name = "enabled", havingValue = "true")
 public class ExeptionAutoConfiguration {
 
     @PostConstruct
